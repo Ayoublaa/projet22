@@ -188,6 +188,54 @@ footer {
 
 .footer-bottom p {
     font-size: 0.8rem;}
-
-
-
+    .our-history {
+        background-color: #f9f9f9;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .our-history h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .our-history p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.5;
+    }
+    
+    /* Stylisation de la section "Contact Us" */
+    .contact-us {
+        background-color: #fff;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .contact-us h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .contact-us ul {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    
+    .contact-us ul li {
+        margin-bottom: 10px;
+    }
+    
+    .contact-us ul li i {
+        margin-right: 10px;
+        color: #666;
+    }
+    
+    .contact-us p {
+        font-size: 18px;
+        color: #333;
+        line-height: 1.5;
+    }
