@@ -10,6 +10,7 @@ header {
     padding: 10px;
 }
 
+
 main {
     padding: 20px;
 }
@@ -189,24 +190,52 @@ footer {
 .footer-bottom p {
     font-size: 0.8rem;}
     .our-history {
-        background-color: #f9f9f9;
-        padding: 50px;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://assets.whichcar.com.au/image/upload/s--ihn_I1iJ--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/c_scale,w_1536/v1/archive/whichcar/2018/11/28/-1/Seven-generations-of-the-Porsche-911-in-pictures.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: blur(2px); 
+        opacity: 0.8; 
+    }
+    
+    .history-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         text-align: center;
+        color: #fff;
+        z-index: 1;
     }
     
-    .our-history h2 {
-        font-size: 36px;
-        color: #333;
+    .history-content h2 {
+        font-size: 48px; 
         margin-bottom: 20px;
+        font-weight: bold; 
     }
     
-    .our-history p {
-        font-size: 18px;
-        color: #666;
+    .history-content p {
+        font-size: 24px;
         line-height: 1.5;
     }
     
-    /* Stylisation de la section "Contact Us" */
+    .history-content p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
     .contact-us {
         background-color: #fff;
         padding: 50px;
@@ -239,3 +268,4 @@ footer {
         color: #333;
         line-height: 1.5;
     }
+
