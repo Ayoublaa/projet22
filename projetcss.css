@@ -268,4 +268,21 @@ footer {
         color: #333;
         line-height: 1.5;
     }
+ul li img {
+    width: 300px;
+    height: auto;
+    /* Ajoutez ici le code d'animation */
+    animation: imageAnimation 3s infinite alternate;
+}
 
+@keyframes imageAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
