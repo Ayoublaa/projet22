@@ -132,146 +132,59 @@ nav ul li a {
     color: #ffffff;
 }
 
+.models {
+    margin-bottom: 40px; /* Increased margin for better separation */
+}
+
+.models h2 {
+    font-size: 28px; /* Reduced font size for a sleeker look */
+    margin-bottom: 20px; /* Increased margin for spacing */
+    text-align: center; /* Centered heading for uniformity */
+    color: #333; /* Darkened text color for better readability */
+}
+
 .models ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-.models ul li {
-    width: 48%;
-    margin-bottom: 10px;
+.models li {
+    width: calc(50% - 10px); /* Adjusted width for better alignment and spacing */
+    margin-bottom: 20px; /* Increased margin for item separation */
+    background-color: #f9f9f9; /* Light background color for items */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.models ul li a {
-    display: flex;
-    align-items: center;
+.models li a {
+    display: block;
     text-decoration: none;
-    color: #000000;
+    color: #333; /* Dark text color for better contrast */
+    padding: 10px; /* Increased padding for better spacing within items */
 }
 
-.models ul li img {
-    width: 400px;
-    height: 400px;
+.models li img {
+    width: 100%; /* Ensuring images fill their containers */
+    height: auto;
+    border-radius: 5px 5px 0 0; /* Rounded top corners for images */
+}
+
+.models li h3 {
+    font-size: 18px; /* Slightly reduced heading size for hierarchy */
+    margin: 10px 0; /* Adjusted margin for spacing */
+    text-align: center; /* Centered heading for uniformity */
+}
+
+.models li p {
+    font-size: 14px; /* Smaller font size for description text */
+    line-height: 1.4; /* Slightly increased line height for readability */
+    margin: 0; /* Removed default margin for cleaner appearance */
+    padding: 0 10px; /* Added padding for text alignment within items */
 }
 
 footer {
-    background-color: #000;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.footer-section {
-    width: 30%;
-    margin-bottom: 20px;
-}
-
-.footer-section h3 {
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-
-.footer-section p {
-    font-size: 0.9rem;
-    line-height: 1.4;
-}
-
-.footer-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 8px;
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.footer-bottom p {
-    font-size: 0.8rem;
-}
-
-.our-history {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('maserati_history_bg.jpg'); /* Assuming a Maserati history background image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: blur(2px);
-    opacity: 0.8;
-}
-
-.history-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-    z-index: 1;
-}
-
-.history-content h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.history-content p {
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-.contact-us {
-    background-color: #fff;
-    padding: 50px;
-    text-align: center;
-}
-
-.contact-us h2 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.contact-us ul {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
-.contact-us ul li {
-    margin-bottom: 10px;
-}
-
-.contact-us ul li i {
-    margin-right: 10px;
-    color: #666;
-}
-
-.contact-us p {
-    font-size: 18px;
-    color: #333;
-    line-height: 1.5;
-}
+    background-color
