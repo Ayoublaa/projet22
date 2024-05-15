@@ -23,8 +23,8 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
-.maserati {
-    background-image: url('maserati_background.jpg'); /* Assuming a Maserati background image */
+.audi {
+    background-image: url('audi_background.jpg'); /* Assuming an Audi background image */
     background-size: cover;
     color: #fff;
     padding: 50px;
@@ -33,12 +33,12 @@ h1, h2 {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.maserati h2 {
+.audi h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.maserati p {
+.audi p {
     font-size: 18px;
     line-height: 1.5;
 }
@@ -174,17 +174,4 @@ nav ul li a {
 }
 
 .models li h3 {
-    font-size: 18px; /* Slightly reduced heading size for hierarchy */
-    margin: 10px 0; /* Adjusted margin for spacing */
-    text-align: center; /* Centered heading for uniformity */
-}
-
-.models li p {
-    font-size: 14px; /* Smaller font size for description text */
-    line-height: 1.4; /* Slightly increased line height for readability */
-    margin: 0; /* Removed default margin for cleaner appearance */
-    padding: 0 10px; /* Added padding for text alignment within items */
-}
-
-footer {
-    background-color
+    font-size: 18px ;}
