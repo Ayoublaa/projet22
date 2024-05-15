@@ -1,83 +1,130 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+ *, *:before, *:after {
+	 box-sizing: border-box;
 }
-
-.background-image {
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/859/516/943/khyzyl-saleem-car-porsche-911-rwb-wallpaper-preview.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ body {
+  height: 100vh;
+	 background: #01939c;
+   overflow-y: hidden!important;
+	 font-family: 'Poppins', sans-serif;
 }
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); 
+ a {
+	 text-decoration: none;
+	 color: #01939c;
+	 transition: 0.5s ease;
 }
-
-.login-box {
-    width: 300px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    border-radius: 10px;
+ a:hover {
+	 color: #179b77;
 }
-
-h1 {
-    text-transform: uppercase;
-    margin-bottom: 20px;
+ .form {
+	 background: #12141d;
+	 padding: 40px;
+	 max-width: 600px;
+	 margin: 40px auto;
+	 border-radius: 15px;
+	 box-shadow: 0 4px 10px 4px rgba(19, 35, 47, .3);
 }
-
-.input-group {
-    margin-bottom: 20px;
+ .tab-group {
+	 list-style: none;
+	 padding: 0;
+	 margin: 0 0 40px 0;
 }
-
-input {
-    padding: 10px;
-    width: 100%;
-    border: none;
-    border-radius: 5px;
-    outline: none;
+ .tab-group:after {
+	 content: "";
+	 display: table;
+	 clear: both;
 }
-
-.buttons {
-    margin-top: 20px;
+ .tab-group li a {
+	 display: block;
+	 text-decoration: none;
+	 padding: 15px;
+	 background: rgba(160, 179, 176, .25);
+	 color: #a0b3b0;
+	 font-size: 20px;
+	 float: left;
+	 width: 48%;
+	 text-align: center;
+	 cursor: pointer;
+	 transition: 0.5s ease;
 }
-
-button {
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+ .tab-group li a:hover {
+	 background: #01939c;
+	 color: #fff;
 }
-
-button:hover {
-    background-color: #ccc;
+ .tab-group .active a {
+	 background: #01939c;
+	 color: #fff;
 }
-
-.info {
-    margin-top: 20px;
+ .tab-content > div:last-child {
+	 display: none;
 }
-
-h4 {
-    margin: 0 10px;
-    font-size: 14px;
-    opacity: 0.7;
+.tab-group{
+  border-radius: 15px!important;
+  margin: 20px;
 }
-
-h4 a {
-    color: #fff;
-    text-decoration: none;
+ h1 {
+	 text-align: center;
+	 color: #fff;
+	 font-weight: 300;
+	 margin: 0 0 40px;
 }
+ input, textarea {
+	 font-size: 17px;
+	 display: block;
+	 width: 100%;
+	 height: 100%;
+	 padding: 5px 10px;
+	 background: none;
+	 background-image: none;
+	 border: 1px solid #01939c;
+	 color: #fff;
+	 border-radius: 6px;
+	 transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+ textarea {
+	 border: 2px solid #01939c;
+	 resize: vertical;
+}
+ .field-wrap {
+	 position: relative;
+	 margin-bottom: 40px;
+}
+ .top-row:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+ .top-row > div {
+	 float: left;
+	 width: 48%;
+	 margin-right: 4%;
+}
+ .top-row > div:last-child {
+	 margin: 0;
+}
+ .button {
+	 border: 0;
+	 outline: none;
+	 border-radius: 15px;
+	 padding: 15px 0;
+	 font-size: 20px;
+	 font-weight: 400;
+	 letter-spacing: 0.1em;
+	 background: #01939c;
+   cursor: pointer;
+	 color: #fff;
+	 transition: all 0.5s ease;
+	 -webkit-appearance: none;
+}
+ .button:hover, .button:focus {
+	 background: #025c61;
+}
+ .button-block {
+	 display: block;
+	 width: 100%;
+}
+ .forgot {
+	 margin-top: -20px;
+	 text-align: right;
+}
+ 
