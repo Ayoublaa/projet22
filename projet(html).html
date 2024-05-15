@@ -4,66 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audi</title>
-    <link rel="stylesheet" href="projetcss.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <nav> 
             <ul> 
-                <li><a href="">Home</a></li> 
-                <li><a href="#" onclick="showModels()">Models</a></li> <!-- Ajout de l'attribut onclick -->
-                <li><a href=""> <img src="https://i.pinimg.com/564x/dd/a2/a9/dda2a96d9a7e8a22f9818b8f530c3605.jpg"  alt="Audi logo"></a> </li>
-                <li><a href="">History</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="">Accueil</a></li> <!-- 1 -->
+                <li><a href="">Modèles</a></li> <!-- 2 -->
+                <li><a href=""> <img src="audi_logo.png" alt="Audi logo"></a> </li> <!-- 3 -->
+                <li><a href="">Histoire</a></li> <!-- 4 -->
+                <li><a href="">Contact</a></li> <!-- 5 -->
             </ul>
         </nav>
     </header>
+
+    <!-- Main Content -->
     <main>
-        <section id="latest-models" class="models" style="display:none;"> <!-- Ajout de l'identifiant et style -->
-            <h2>Latest Models</h2>
+        <!-- Section 1: Welcome Section -->
+        <section class="audi"> 
+            <h2>Bienvenue chez Audi</h2> <!-- 6 -->
+            <p>Découvrez le monde d'Audi, un héritage de performance et d'innovation.</p> <!-- 7 -->
+        </section>
+
+        <!-- Section 2: Latest Models -->
+        <section class="models">
+            <h2>Derniers Modèles</h2> <!-- 8 -->
             <ul>
-                <li><a href=""> <img src="audi_a4.jpg" alt="Audi A4"></a> Audi A4</li> 
-                <li><a href=""><img src="audi_q5.jpg" alt="Audi Q5"></a> Audi Q5</li>
-                <li><a href=""><img src="audi_tt.jpg" alt="Audi TT"></a> Audi TT</li>
-                <li><a href=""><img src="audi_a8.jpg" alt="Audi A8"></a> Audi A8</li>
+                <li> <!-- 9 -->
+                    <a href=""> <!-- 10 -->
+                        <img src="audi_model1.jpg" alt="Audi Model 1"> <!-- 11 -->
+                        <h3>Audi Model 1</h3> <!-- 12 -->
+                        <p>Description du modèle Audi 1.</p> <!-- 13 -->
+                    </a>
+                </li>
+                <li> <!-- 14 -->
+                    <a href=""> <!-- 15 -->
+                        <img src="audi_model2.jpg" alt="Audi Model 2"> <!-- 16 -->
+                        <h3>Audi Model 2</h3> <!-- 17 -->
+                        <p>Description du modèle Audi 2.</p> <!-- 18 -->
+                    </a>
+                </li>
+                <!-- Ajoutez autant d'éléments li pour d'autres modèles -->
             </ul>
         </section>
+
+        <!-- Section 3: Our History -->
+        <section class="our-history">
+            <div class="background-image"></div>
+            <div class="history-content">
+                <h2>Notre Histoire</h2> <!-- 19 -->
+                <p>Découvrez la riche histoire d'Audi, s'étalant sur des décennies d'excellence en ingénierie.</p> <!-- 20 -->
+            </div>
+        </section>
+
+        <!-- Section 4: Contact Us -->
+        <section class="contact-us">
+            <h2>Contactez-nous</h2> <!-- 21 -->
+            <ul>
+                <li><i class="fa fa-envelope"></i>Email: info@audi.com</li> <!-- 22 -->
+                <li><i class="fa fa-phone"></i>Téléphone: +1-800-AUDI</li> <!-- 23 -->
+                <li><i class="fa fa-map-marker"></i>Adresse: 123 Audi Drive, Ingolstadt, Allemagne</li> <!-- 24 -->
+            </ul>
+            <p>Contactez-nous pour des demandes, des essais routiers ou toute assistance.</p> <!-- 25 -->
+        </section>
     </main>
+
+    <!-- Footer -->
     <footer>
         <div class="footer-content">
             <div class="footer-section about">
-                <h3>About Us</h3>
-                <p>Learn more about Audi and our commitment to performance and innovation.</p>
+                <h3>À Propos de Nous</h3> <!-- 26 -->
+                <p>En savoir plus sur Audi et notre engagement envers la performance et l'innovation.</p> <!-- 27 -->
             </div>
             <div class="footer-section links">
-                <h3>Quick Links</h3>
+                <h3>Liens Rapides</h3> <!-- 28 -->
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="#">Models</a></li> <!-- Ajout du lien vers les derniers modèles -->
-                    <li><a href="">History</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="">Accueil</a></li> <!-- 29 -->
+                    <li><a href="">Modèles</a></li> <!-- 30 -->
+                    <li><a href="">Histoire</a></li> <!-- 31 -->
+                    <li><a href="">Contact</a></li> <!-- 32 -->
                 </ul>
             </div>
             <div class="footer-section contact">
-                <h3>Contact Us</h3>
+                <h3>Contactez-nous</h3> <!-- 33 -->
                 <ul>
-                    <li>Email: info@audi.com</li>
-                    <li>Phone: +1-800-AUDI</li>
-                    <li>Address: 123 Audi Drive, Ingolstadt, Germany</li>
+                    <li>Email: info@audi.com</li> <!-- 34 -->
+                    <li>Téléphone: +1-800-AUDI</li> <!-- 35 -->
+                    <li>Adresse: 123 Audi Drive, Ingolstadt, Allemagne</li> <!-- 36 -->
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Audi. All rights reserved.</p>
+            <p>&copy; 2024 Audi. Tous droits réservés.</p> <!-- 37 -->
         </div>
     </footer>
-
-    <!-- Ajout du script JavaScript -->
-    <script>
-        function showModels() {
-            var modelsSection = document.getElementById("latest-models");
-            modelsSection.style.display = "block"; // Affiche la section des derniers modèles
-        }
-    </script>
 </body>
 </html>
