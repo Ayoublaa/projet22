@@ -4,16 +4,17 @@ body {
     padding: 0;
     background-color: #f5f5f5;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 10px;
 }
 
-
 main {
     padding: 20px;
 }
+
 section {
     margin-bottom: 20px;
 }
@@ -21,47 +22,52 @@ section {
 h1, h2 {
     margin-bottom: 10px;
 }
-.porsche {
-    background-image: url('	https://i.pinimg.com/236x/b6/fc/c7/b6fcc74cf27cb6eaa0cf74150b793011.jpg'); 
+
+.maserati {
+    background-image: url('maserati_background.jpg'); /* Assuming a Maserati background image */
     background-size: cover;
     color: #fff;
     padding: 50px;
-    text-align: center; 
-    border-radius: 10px; 
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
-  }
-  
-  .porsche h2 {
-    font-size: 36px; 
-    margin-bottom: 20px; 
-  }
-  
-  .porsche p {
-    font-size: 18px; 
-    line-height: 1.5; 
-  }
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.maserati h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.maserati p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
 }
+
 li {
     margin-bottom: 5px;
 }
+
 ul li img {
-    width: 300px; 
-    height: auto; 
+    width: 300px;
+    height: auto;
 }
+
 ul li img:hover {
     transform: translateY(-3px);
- box-shadow: 0 20px 30px rgb(255, 255, 255);
-
+    box-shadow: 0 20px 30px rgba(255, 255, 255, 0.5);
 }
+
 ul li img:active {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-   }
-   
-   ul li img::after {
+}
+
+ul li img::after {
     content: "";
     display: inline-block;
     height: 100%;
@@ -72,26 +78,28 @@ ul li img:active {
     left: 0;
     z-index: -1;
     transition: all .4s;
-   }
-   
-   ul li img::after {
+}
+
+ul li img::after {
     background-color: #fff;
-   }
-   
-   ul li img:hover::after {
+}
+
+ul li img:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
-   }
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #000000;
 }
-nav li{
-    border-right: 4px rgb(255, 255, 255);
 
+nav li {
+    border-right: 4px solid #ffffff; /* Corrected border syntax */
 }
+
 nav ul li a {
     display: block;
     position: relative;
@@ -101,10 +109,11 @@ nav ul li a {
     font-family: sans-serif;
     color: #f0f0f0;
     text-transform: uppercase;
-    transition: 0.5s; 
+    transition: 0.5s;
 }
+
 nav ul li a img {
-    width: 30px; 
+    width: 30px;
     height: auto;
     margin-right: 5px;
 }
@@ -116,13 +125,13 @@ nav ul li:hover a {
 }
 
 nav ul li a {
-    
-    transform: scale(1); 
+    transform: scale(1);
     opacity: 1;
     filter: blur(0);
     text-decoration: none;
     color: #ffffff;
 }
+
 .models ul {
     display: flex;
     flex-wrap: wrap;
@@ -131,9 +140,10 @@ nav ul li a {
 }
 
 .models ul li {
-    width: 48%; 
-    margin-bottom: 10px; 
+    width: 48%;
+    margin-bottom: 10px;
 }
+
 .models ul li a {
     display: flex;
     align-items: center;
@@ -144,8 +154,8 @@ nav ul li a {
 .models ul li img {
     width: 400px;
     height: 400px;
-   
 }
+
 footer {
     background-color: #000;
     color: #fff;
@@ -188,101 +198,80 @@ footer {
 }
 
 .footer-bottom p {
-    font-size: 0.8rem;}
-    .our-history {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-    }
-    
-    .background-image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url('https://assets.whichcar.com.au/image/upload/s--ihn_I1iJ--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/c_scale,w_1536/v1/archive/whichcar/2018/11/28/-1/Seven-generations-of-the-Porsche-911-in-pictures.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        filter: blur(2px); 
-        opacity: 0.8; 
-    }
-    
-    .history-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        color: #fff;
-        z-index: 1;
-    }
-    
-    .history-content h2 {
-        font-size: 48px; 
-        margin-bottom: 20px;
-        font-weight: bold; 
-    }
-    
-    .history-content p {
-        font-size: 24px;
-        line-height: 1.5;
-    }
-    
-    .history-content p {
-        font-size: 18px;
-        line-height: 1.5;
-    }
-    
-    .contact-us {
-        background-color: #fff;
-        padding: 50px;
-        text-align: center;
-    }
-    
-    .contact-us h2 {
-        font-size: 36px;
-        color: #333;
-        margin-bottom: 20px;
-    }
-    
-    .contact-us ul {
-        list-style-type: none;
-        padding: 0;
-        margin-bottom: 20px;
-    }
-    
-    .contact-us ul li {
-        margin-bottom: 10px;
-    }
-    
-    .contact-us ul li i {
-        margin-right: 10px;
-        color: #666;
-    }
-    
-    .contact-us p {
-        font-size: 18px;
-        color: #333;
-        line-height: 1.5;
-    }
-ul li img {
-    width: 300px;
-    height: auto;
-    /* Ajoutez ici le code d'animation */
-    animation: imageAnimation 3s infinite alternate;
+    font-size: 0.8rem;
 }
 
-@keyframes imageAnimation {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+.our-history {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('maserati_history_bg.jpg'); /* Assuming a Maserati history background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    opacity: 0.8;
+}
+
+.history-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.history-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.history-content p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.contact-us {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-us h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-us ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.contact-us ul li {
+    margin-bottom: 10px;
+}
+
+.contact-us ul li i {
+    margin-right: 10px;
+    color: #666;
+}
+
+.contact-us p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
 }
