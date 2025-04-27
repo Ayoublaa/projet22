@@ -31,7 +31,7 @@ h1, h2 {
 }
 
 .audi {
-    background-image: url('audi_background.jpg'); /* Remplacez par votre image d'arrière-plan Audi */
+    background-image: url('https://www.motortrend.com/uploads/sites/5/2019/09/2020-Audi-RS7-Sportback-front-interior-dashboard.jpg?w=768&width=768&q=75&format=webp'); /* Remplacez par votre image d'arrière-plan Audi */
     background-size: cover;
     color: #fff;
     padding: 50px;
